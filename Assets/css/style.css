@@ -1,0 +1,14 @@
+/* move all of main to the left */
+header, main, footer {
+  padding-left: 200px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+/* shorten width of sidenav */
+.sidenav {
+  width: 220px;
+}

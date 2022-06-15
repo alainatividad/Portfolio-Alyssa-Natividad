@@ -1,189 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- Stylesheet for LinkedIn and Github Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Alyssa Natividad</title>
-</head>
-<body>
-    <nav class="indigo darken-1" role="navigation">
-      <div class="nav-wrapper container">
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#aboutMe">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact Info</a></li>
-        </ul>
-        <ul class="sidenav" id="slide-out">
-            <li><div class="user-view">
-              <div class="background">
-                <img src="https://picsum.photos/id/16/300">
-              </div>
-              <a href="#user"><img class="circle" src="./Assets/img/alyssa.JPG"></a>
-              <a href="#name"><span class="black-text name">Alyssa Natividad</span></a>
-              <a href="#email"><span class="black-text email">alyssatnatividad@gmail.com</span></a>
-            </div></li>
-            <li><a class="waves-effect" href="#aboutMe">About Me</a></li>
-            <li><a class="waves-effect" href="#projects">Projects</a></li>
-            <li><a class="waves-effect" href="#contact">Contact Info</a></li>
-        </ul>
-            
-        <a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet for LinkedIn and Github Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      rel="stylesheet"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Alyssa Natividad</title>
+  </head>
+  <body>
+    <nav class="red lighten-1" role="navigation" id="home">
+      <ul class="sidenav sidenav-fixed" id="slide-out">
+        <li>
+          <a class="waves-effect" href="#home">
+            <i class="material-icons">home</i>
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect" href="#aboutMe">
+            <i class="material-icons">person</i>About Me
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect" href="#projects">
+            <i class="material-icons">photo_library</i>Projects
+          </a>
+        </li>
+        <li>
+          <a class="waves-effect" href="#contact">
+            <i class="material-icons">contacts</i>Contact Info
+          </a>
+        </li>
+        <li>
+          <a
+            class="waves-effect"
+            href="./Assets/docs/AlyssaNatividad_Resume.pdf"
+            donwload
+          >
+            <i class="material-icons">file_download</i>Resume
+          </a>
+        </li>
+      </ul>
+      <a
+        href="#"
+        data-target="slide-out"
+        class="top-nav sidenav-trigger full hide-on-large-only"
+      >
+        <i class="material-icons">menu</i>
+      </a>
     </nav>
 
-  <main>
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
+    <main>
+      <div id="index-banner" class="red lighten-1">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <!-- <br /><br /> -->
+            <h1 class="header center white-text">
+              Hello, I'm Alyssa Natividad.
+            </h1>
+            <h1 class="header center white-text">
+              I am a full-stack web developer
+            </h1>
+            <div class="section red lighten-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section white" id="aboutMe">
+        <h2 class="header center red-text text-lighten-2">About Me</h2>
+      </div>
+
+      <div class="section red lighten-1">
         <div class="container">
-          <br><br>
-          <h1 class="header center indigo-text text-lighten-2">Hello, I'm Alyssa Natividad.</h1>
-          <h1 class="header center white-text">I am a full-stack web developer</h1>
-          <!-- <div class="row center">
-            <div class="container">
-              <h3 class="header white-text col s12 light">I'm a web developer.
-              </h2>
+          <div class="row">
+            <div class="col s12 m6 l5 push-l7">
+              <img
+                class="circle responsive-img"
+                src="./Assets/img/alyssa.JPG"
+              />
             </div>
-          </div> -->
+            <div class="col s12 m6 l5 pull-l5">
+              <p class="white-text flow-text">
+                An accomplished and fluent communicator with strong
+                investigation, problem-solving and decision-making skills
+                enhanced by previous application support and development roles.
+                Excited to transition into a new career as a full-stack web
+                developer.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="parallax">
-        <img src="https://picsum.photos/id/249/3000/2000/?blur=2" alt="Unsplashed background img 1">
-      </div>
-    </div>
 
-    <div class="section white" id="aboutMe">
-      <h2 class="header center indigo-text text-lighten-2">About Me</h2>
-    </div>
+      <div class="section white" id="projects">
+        <div class="container">
+          <h2 class="header center red-text text-lighten-2">Projects</h2>
+        </div>
+      </div>
 
-    <div class="section indigo">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 l5 push-l7">
-            <img class="circle responsive-img" src="./Assets/img/alyssa.JPG">
+      <div class="section red lighten-1">
+        <div class="container">
+          <div class="row one">
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/MarvelTube.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">
+                    <i class="material-icons right">more_vert</i>
+                    MarvelTube
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">
+                    <i class="material-icons right">close</i>MarvelTube
+                  </span>
+                  <p class="flow-text">
+                    This is a web application that Integrates Youtube API and
+                    Marvel API to produce a simpler character search experience.
+                    In this project, a user can either search for a Marvel
+                    character or click any of the pre-loaded images and the
+                    application would show several Youtube videos related to
+                    that selected character.<br />This project is built using
+                    HTML, Semantic UI, a CSS framework, and several server-side
+                    API's namely Youtube API and Marvel API.
+                  </p>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/MarvelTube/"
+                        target="_blank"
+                        >MarvelTube</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/MarvelTube"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large show-on-small">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/WeatherApp.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                      >close</i
+                    ></span
+                  >
+                  <p class="flow-text">
+                    This weather dashboard shows the current weather conditions
+                    and five-day forecast of the city entered in the search box.
+                    Weather details such as temperature, wind speed, humidity,
+                    and UV Index are shown. A weather icon is also shown after
+                    the date and UV Index are highlighted to either red, yellow,
+                    or red to indicate whether the conditions are favorable,
+                    moderate, or severe respectively.
+                    <br />
+                    The application is done using HTML, CSS, and JavaScript
+                    powered by third-party API's such as Bootstrap, Moment.js,
+                    and OpenWeather's GeoCoding and One Call APIs.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/API-Weather_Dashboard/"
+                        target="_blank"
+                        >Weather Dashboard</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/API-Weather_Dashboard"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/Scheduler.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Workday Scheduler<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Workday Scheduler<i class="material-icons right"
+                      >close</i
+                    ></span
+                  >
+                  <p class="flow-text">
+                    This application is a take on a simple day planner that
+                    allows a user to save events for each work hour of the day.
+                    <br />
+                    The application is done using HTML, CSS, and JavaScript
+                    powered by third-party API's such as Bootstrap, Moment.js,
+                    and jQuery.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/Bootstrap-WorkDay-Scheduler/"
+                        target="_blank"
+                        >Workday Scheduler</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/Bootstrap-WorkDay-Scheduler"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col s12 m6 l5 pull-l5">
-            <p class="white-text flow-text">An accomplished and fluent communicator with strong investigation, problem-solving and decision-making skills enhanced by previous application support and development roles. Excited to transition into a new career as a full-stack web developer.<br><br>
-            Technologies:<br>
-            HTML, CSS, JavaScript, Bootstrap, Git
-           </p>
+          <div class="row one">
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/MarvelTube.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >MarvelTube<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >MarvelTube<i class="material-icons right">close</i></span
+                  >
+                  <p class="flow-text">
+                    This is a web application that Integrates Youtube API and
+                    Marvel API to produce a simpler character search experience.
+                    In this project, a user can either search for a Marvel
+                    character or click any of the pre-loaded images and the
+                    application would show several Youtube videos related to
+                    that selected character.<br />This project is built using
+                    HTML, Semantic UI, a CSS framework, and several server-side
+                    API's namely Youtube API and Marvel API.
+                  </p>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/MarvelTube/"
+                        target="_blank"
+                        >MarvelTube</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/MarvelTube"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large show-on-small">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/WeatherApp.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                      >close</i
+                    ></span
+                  >
+                  <p class="flow-text">
+                    This weather dashboard shows the current weather conditions
+                    and five-day forecast of the city entered in the search box.
+                    Weather details such as temperature, wind speed, humidity,
+                    and UV Index are shown. A weather icon is also shown after
+                    the date and UV Index are highlighted to either red, yellow,
+                    or red to indicate whether the conditions are favorable,
+                    moderate, or severe respectively.
+                    <br />
+                    The application is done using HTML, CSS, and JavaScript
+                    powered by third-party API's such as Bootstrap, Moment.js,
+                    and OpenWeather's GeoCoding and One Call APIs.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/API-Weather_Dashboard/"
+                        target="_blank"
+                        >Weather Dashboard</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/API-Weather_Dashboard"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card red lighten-3 large">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./Assets/img/Scheduler.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Workday Scheduler<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Workday Scheduler<i class="material-icons right"
+                      >close</i
+                    ></span
+                  >
+                  <p class="flow-text">
+                    This application is a take on a simple day planner that
+                    allows a user to save events for each work hour of the day.
+                    <br />
+                    The application is done using HTML, CSS, and JavaScript
+                    powered by third-party API's such as Bootstrap, Moment.js,
+                    and jQuery.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <a
+                        href="https://alainatividad.github.io/Bootstrap-WorkDay-Scheduler/"
+                        target="_blank"
+                        >Workday Scheduler</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/alainatividad/Bootstrap-WorkDay-Scheduler"
+                        target="_blank"
+                        >GitHub Repository</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section white" id="projects">
-      <div class="container">
-        <h2 class="header center indigo-text text-lighten-2">Projects</h2>
-      </div>
-    </div>
-    <div class="section indigo">
-    <div class="container">
-    <div class="row one">
-      <div class="col s12 m4">
-        <div class="card indigo lighten-3 large">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./Assets/img/MarvelTube.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">MarvelTube<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">MarvelTube<i class="material-icons right">close</i></span>
-            <p class="flow-text">This is a web application that Integrates Youtube API and Marvel API to produce a simpler character search experience. In this project, a user can either search for a Marvel character or click any of the pre-loaded images and the application would show several Youtube videos related to that selected character.<br>This project is built using HTML, Semantic UI, a CSS framework, and several server-side API's namely Youtube API and Marvel API.
-            <ul>
-              <li><a href="https://alainatividad.github.io/MarvelTube/" target="_blank">MarvelTube</a></li>
-              <li><a href="https://github.com/alainatividad/MarvelTube" target="_blank">GitHub Repository</a></li>
-            </ul>
-            </p>
-          </div>
+
+      <div class="section white" id="contact">
+        <div class="container">
+          <h2 class="header center red-text text-lighten-2">Contact Me</h2>
         </div>
       </div>
-      <div class="col s12 m4">
-        <div class="card indigo lighten-3 large show-on-small">
-          <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./Assets/img/WeatherApp.png">
-          </div>
-          <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Weather Dashboard<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Weather Dashboard<i class="material-icons right">close</i></span>
-          <p class="flow-text">This weather dashboard shows the current weather conditions and five-day forecast of the city entered in the search box. Weather details such as temperature, wind speed, humidity, and UV Index are shown. A weather icon is also shown after the date and UV Index are highlighted to either green, yellow, or red to indicate whether the conditions are favorable, moderate, or severe respectively.
-          <br>
-          The application is done using HTML, CSS, and JavaScript powered by third-party API's such as Bootstrap, Moment.js, and OpenWeather's GeoCoding and One Call APIs.
-          <ul>
-            <li><a href="https://alainatividad.github.io/API-Weather_Dashboard/" target="_blank">Weather Dashboard</a></li>
-            <li><a href="https://github.com/alainatividad/API-Weather_Dashboard" target="_blank">GitHub Repository</a></li>
+
+      <div class="section red lighten-1">
+        <div class="container">
+          <!-- Dropdown Trigger -->
+          <a class="dropdown-trigger btn red lighten-2" data-target="dropdown1"
+            >Contact Me!</a
+          >
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li>
+              <a class="red-text lighten-2"
+                ><i class="material-icons">contact_phone</i>0426534626</a
+              >
+            </li>
+            <li>
+              <a
+                class="red-text lighten-2"
+                href="mailto:alyssatnatividad@gmail.com"
+                target="_blank"
+              >
+                <i class="material-icons">contact_mail</i>Email</a
+              >
+            </li>
           </ul>
-          
-          </p>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card indigo lighten-3 large">
-          <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./Assets/img/Scheduler.png">
-          </div>
-          <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Workday Scheduler<i class="material-icons right">more_vert</i></span>
-          </div>
-          <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Workday Scheduler<i class="material-icons right">close</i></span>
-          <p class="flow-text">This application is a take on a simple day planner that allows a user to save events for each work hour of the day.
-          <br>            
-          The application is done using HTML, CSS, and JavaScript powered by third-party API's such as Bootstrap, Moment.js, and jQuery.
-          <ul>
-            <li><a href="https://alainatividad.github.io/Bootstrap-WorkDay-Scheduler/" target="_blank">Workday Scheduler</a></li>
-            <li><a href="https://github.com/alainatividad/Bootstrap-WorkDay-Scheduler" target="_blank">GitHub Repository</a></li>
-          </ul>
-          </p>
-          </div>
-        </div>
-      </div>
-    </div>  
-    </div>
-  </div>
-  <div class="section"></div>
-  </main>
-  <footer class="page-footer indigo darken-1" id="contact">
-    <div class="container">
-      <div class="row valign-wrapper center">
-        <div class="col l6 s6">
-          <h4 class="white-text">Contact Me</h4>
-          Click <a class="grey-text text-lighten-3" href="./Assets/docs/AlyssaNatividad_Resume.pdf" donwload>here</a> for a copy of my resume
-        </div>
-        <div class="col l6 s6">
-          <h6 class="white-text">Email Address</h6>
-          <a class="grey-text text-lighten-3" href="mailto:alyssatnatividad@gmail.com" target="_blank">alyssatnatividad@gmail.com</a>
-          <h6 class="white-text">Phone Number</h6>
-          <p>0426534626</p>
-          <section class="logos">
-            <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/alyssa-natividad" target="_blank">
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
+          <p>
+            <a
+              class="grey-text text-lighten-3"
+              href="https://www.linkedin.com/in/alyssa-natividad"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-2xl"></i> @LinkedIn
             </a>
-            <a class="grey-text text-lighten-3" href="https://www.github.com/alainatividad" target="_blank">
-              <i class="fa-brands fa-github fa-2xl"></i>
+          </p>
+          <p>
+            <a
+              class="grey-text text-lighten-3"
+              href="https://www.github.com/alainatividad"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github fa-2xl"></i> @github
             </a>
-        </section>
+          </p>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made using <a class="grey-text text-lighten-4" href="http://materializecss.com">Materalize</a> © 2022
+    </main>
+    <footer class="page-footer red lighten-1">
+      <div class="footer-copyright">
+        <div class="container">
+          Made using
+          <a class="grey-text text-lighten-4" href="http://materializecss.com"
+            >Materalize</a
+          >
+          © 2022
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="./Assets/js/script.js"></script>
-</body>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./Assets/js/script.js"></script>
+  </body>
 </html>
