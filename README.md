@@ -10,7 +10,7 @@ This portfolio contains three sections:
 - Projects section, each image is a link to a previous work done by the developer. Each project is a card that can be clicked and when clicked, a description of the project and links to the deployed project and github repository is found. And,
 - Contact Me section that lists the ways the developer could be contacted along with their LinkedIn and Github accounts.
 
-This web application is made using HTML, CSS framework called [Materialize](https://materializecss.com/), and JavaSwcript. 
+This web application is made using HTML, CSS framework called [Materialize](https://materializecss.com/), and JavaScript.
 
 ## Demo
 
